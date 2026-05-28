@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/5473a7bff7.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.lineicons.com/5.1/line/lineicons.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mogra&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NO:wght@100..400&family=Playwrite+NZ+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary p-2">
+
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./img/log.png" alt="Descripción de la imagen" width="150"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class=""><i class="fa-solid fa-burger"></i></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="#"><img src="./img/log.png" alt="Descripción de la imagen" width="100"></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-regular fa-circle-xmark"></i></button>
+                    
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                    <div class=" d-flex gap-2 align-items-center">
+                        <button><i class="fa-solid fa-phone-volume"></i></button>
+                        <button><i class="fa-regular fa-envelope"></i></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </nav>
+        </header>
+        
+
+        <section id="contacto" class="container py-5">
+
+    <div class="text-center mb-5">
+        <h2 class="fw-bold display-5">
+            <i class="fa-solid fa-envelope text-warning"></i>
+            Contáctanos
+        </h2>
+
+        <p class="text-secondary">
+            Escríbenos y realiza tu pedido o consulta
+        </p>
+    </div>
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8">
+
+            <div class="card border-0 shadow-lg rounded-4">
+
+                <div class="card-body p-4 p-md-5">
+
+                    <form>
+
+                        <!-- Nombre -->
+                        <div class="mb-4">
+
+                            <label class="form-label fw-semibold">
+                                <i class="fa-solid fa-user text-warning me-2"></i>
+                                Nombre completo
+                            </label>
+
+                            <input type="text" class="form-control form-control-lg rounded-3" placeholder="Ingresa tu nombre">
+
+                        </div>
+
+                        <!-- Correo -->
+                        <div class="mb-4">
+
+                            <label class="form-label fw-semibold">
+                                <i class="fa-solid fa-envelope text-warning me-2"></i>
+                                Correo electrónico
+                            </label>
+
+                            <input type="email" class="form-control form-control-lg rounded-3" placeholder="correo@gmail.com">
+
+                        </div>
+
+                        <!-- Teléfono -->
+                        <div class="mb-4">
+
+                            <label class="form-label fw-semibold">
+                                <i class="fa-solid fa-phone text-warning me-2"></i>
+                                Teléfono
+                            </label>
+
+                            <input type="tel" class="form-control form-control-lg rounded-3" placeholder="+51 999 999 999">
+
+                        </div>
+
+                        <!-- Mensaje -->
+                        <div class="mb-4">
+
+                            <label class="form-label fw-semibold">
+                                <i class="fa-solid fa-message text-warning me-2"></i>
+                                Mensaje
+                            </label>
+
+                            <textarea class="form-control rounded-3" rows="5" placeholder="Escribe tu mensaje"></textarea>
+
+                        </div>
+
+                        <!-- Botón -->
+                        <button class="btn btn-warning btn-lg w-100 rounded-pill fw-bold">
+
+                            <i class="fa-solid fa-paper-plane me-2"></i>
+                            Enviar mensaje
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+        
+
+        <footer class="footer text-white pt-5 pb-3">
+
+            <div class="container">
+
+                <div class="row g-4">
+
+                    <!-- Logo -->
+                    <div class="col-lg-4">
+                        <h2 class="fw-bold ">
+                            Burger House
+                        </h2>
+
+                        <p class="">
+                            Disfruta de las mejores hamburguesas, papas y combos
+                            preparados con ingredientes frescos y mucho sabor.
+                        </p>
+                    </div>
+
+                    <!-- Enlaces -->
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="fw-bold mb-3">
+                            Menú
+                        </h5>
+
+                        <ul class="list-unstyled">
+
+                            <li class="mb-2">
+                                <a href="index.html" class="text-decoration-none ">
+                                    Inicio
+                                </a>
+                            </li>
+
+                            <li class="mb-2">
+                                <a href="#menu" class="text-decoration-none ">
+                                    Menu
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="contacto.html" class="text-decoration-none ">
+                                    contacto
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- Información -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="fw-bold mb-3">
+                            Información
+                        </h5>
+
+                        <ul class="list-unstyled">
+
+                            <li class="mb-2">
+                                Lima, Perú
+                            </li>
+
+                            <li class="mb-2">
+                                +51 999 999 999
+                            </li>
+
+                            <li>
+                                contacto@burgerhouse.com
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- Redes -->
+                    <div class="col-lg-3">
+                        <h5 class="fw-bold mb-3">
+                            Síguenos
+                        </h5>
+
+                        <div class="d-flex gap-3">
+
+                            <a href="#" class="btn btn-outline-warning rounded-circle">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+
+                            <a href="#" class="btn btn-outline-warning rounded-circle">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+                            <a href="#" class="btn btn-outline-warning rounded-circle">
+                                <i class="bi bi-tiktok"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class=" my-4">
+
+                <div class="text-center ">
+                    © 2026 Burger House | Todos los derechos reservados
+                </div>
+
+            </div>
+
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

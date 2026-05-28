@@ -1,0 +1,85 @@
+button,
+button:focus,
+button:active,
+button:hover,
+button:focus-visible,
+.btn,
+.btn:focus,
+.btn:active{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    color: $primary-color !important;
+    background-color: transparent !important;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.active{
+    color: $primary-color !important;
+}
+
+.btn-close{
+    background: none !important;
+}
+
+#carouselExampleFade img{
+    max-width: 100%;
+    height: 400px;
+    @include responsive(md){
+        height: 300px;
+        margin: 20px 0;
+    }
+    @include responsive(sm){
+        height: 200px;
+    }
+    @include responsive(xs){
+        height: 150px;
+    }    
+}
+
+.parallax{
+    height: 400px;
+    background-image: linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ),
+    url("../img/paralax.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+/* Scrollbar profesional y moderna */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        180deg,
+        $primary-color,
+        $primary-color
+    );
+    border-radius: 20px;
+    border: 3px solid #f1f1f1;
+    box-shadow: inset 0 0 6px rgba(255,255,255,0.2);
+}
+
+
+/* Esquinas */
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

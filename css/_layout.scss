@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: $white-color !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1000;
+
+    span{
+        font-size: 30px;
+    }
+}
+
+.main{
+    &__hero{
+        h1{
+            color: $primary-color !important;
+            font-weight: 800;
+            font-size: clamp(2.5rem, 5.5vw, 7rem);
+        }
+        p{
+            color: $secondary-color !important;
+            font-size: clamp(1rem, 2.5vw, 1.5rem);
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        hr{
+            width: 50%;
+            border: 2px solid $primary-color !important;
+            margin: 50px auto;
+        }
+        a{
+            color: $white-color !important;
+            background-color: $primary-color !important;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            &:hover{
+                background-color: $secondary-color !important;
+                color: $white-color !important;
+                transform: scale(1.05);
+                
+            }
+        }
+
+        &--comment{
+            padding: 0 45px;
+            h1{
+                font-size: 40px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    color: $secondary-color !important;
+                }
+            }
+            p{
+                font-size: clamp(10px, 1vw, 15px);
+                font-weight:700;
+            }
+        }
+    }
+
+}
+
+.menu{
+    h2{
+        color: $primary-color;
+    }
+}
+
+.footer{
+    background-color: $primary-color;
+    color: $white-color !important;
+    padding: 30px 0;
+
+    a{
+        color: $white-color !important;
+    }
+}

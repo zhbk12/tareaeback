@@ -1,0 +1,161 @@
+button,
+button:focus,
+button:active,
+button:hover,
+button:focus-visible,
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  color: #ff7e22 !important;
+  background-color: transparent !important;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+button:hover,
+button:focus:hover,
+button:active:hover,
+button:hover:hover,
+button:focus-visible:hover,
+.btn:hover,
+.btn:focus:hover,
+.btn:active:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  color: #ff7e22 !important;
+}
+
+.btn-close {
+  background: none !important;
+}
+
+#carouselExampleFade img {
+  max-width: 100%;
+  height: 400px;
+}
+@media (max-width: 1024px) {
+  #carouselExampleFade img {
+    height: 300px;
+    margin: 20px 0;
+  }
+}
+@media (max-width: 768px) {
+  #carouselExampleFade img {
+    height: 200px;
+  }
+}
+@media (max-width: 480px) {
+  #carouselExampleFade img {
+    height: 150px;
+  }
+}
+
+.parallax {
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/paralax.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 20px;
+  margin: 40px 0;
+}
+
+/* Scrollbar profesional y moderna */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff7e22, #ff7e22);
+  border-radius: 20px;
+  border: 3px solid #f1f1f1;
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.2);
+}
+
+/* Esquinas */
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1000;
+}
+.navbar span {
+  font-size: 30px;
+}
+
+.main__hero h1 {
+  color: #ff7e22 !important;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5.5vw, 7rem);
+}
+.main__hero p {
+  color: #6c757d !important;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.main__hero hr {
+  width: 50%;
+  border: 2px solid #ff7e22 !important;
+  margin: 50px auto;
+}
+.main__hero a {
+  color: #fff !important;
+  background-color: #ff7e22 !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+.main__hero a:hover {
+  background-color: #6c757d !important;
+  color: #fff !important;
+  transform: scale(1.05);
+}
+.main__hero--comment {
+  padding: 0 45px;
+}
+.main__hero--comment h1 {
+  font-size: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.main__hero--comment h1:hover {
+  color: #6c757d !important;
+}
+.main__hero--comment p {
+  font-size: clamp(10px, 1vw, 15px);
+  font-weight: 700;
+}
+
+.menu h2 {
+  color: #ff7e22;
+}
+
+.footer {
+  background-color: #ff7e22;
+  color: #fff !important;
+  padding: 30px 0;
+}
+.footer a {
+  color: #fff !important;
+}/*# sourceMappingURL=styles.css.map */
