@@ -151,6 +151,16 @@ h2 {
   font-weight: 700;
 }
 
+.hamburguesa-acordeon h2 {
+  justify-content: center;
+  text-align: center;
+}
+.hamburguesa-acordeon hr {
+  max-width: 70%;
+  margin: 20px auto;
+  color: #ff7e22 !important;
+}
+
 .footer {
   background-color: #ff7e22;
   color: #fff !important;
