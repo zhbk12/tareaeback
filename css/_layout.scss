@@ -65,7 +65,17 @@
     }
 
 }
-
+.hamburguesa-acordeon{
+    h2{
+        justify-content: center;
+        text-align: center;
+    }
+    hr{
+        max-width: 70%;
+        margin: 20px auto;
+        color: $primary-color !important;
+    }
+}
 .footer{
     background-color: $primary-color;
     color: $white-color !important;
