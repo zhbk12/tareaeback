@@ -13,9 +13,16 @@ button:focus-visible,
     background-color: transparent !important;
     font-size: 1.2rem;
     transition: all 0.3s ease;
-    &:hover{
-        transform: scale(1.1);
-    }
+}
+
+a {
+    text-decoration: none !important;
+    color: $primary-color !important;
+}
+
+h2{
+    color: $primary-color !important;
+    font-weight: 700;
 }
 
 .active{
@@ -82,4 +89,8 @@ button:focus-visible,
 /* Esquinas */
 ::-webkit-scrollbar-corner {
     background: transparent;
+}
+
+.hamburguesa-acordeon{
+    margin: 50px auto;
 }

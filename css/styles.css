@@ -14,15 +14,15 @@ button:focus-visible,
   font-size: 1.2rem;
   transition: all 0.3s ease;
 }
-button:hover,
-button:focus:hover,
-button:active:hover,
-button:hover:hover,
-button:focus-visible:hover,
-.btn:hover,
-.btn:focus:hover,
-.btn:active:hover {
-  transform: scale(1.1);
+
+a {
+  text-decoration: none !important;
+  color: #ff7e22 !important;
+}
+
+h2 {
+  color: #ff7e22 !important;
+  font-weight: 700;
 }
 
 .active {
@@ -86,6 +86,10 @@ button:focus-visible:hover,
   background: transparent;
 }
 
+.hamburguesa-acordeon {
+  margin: 50px auto;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -145,10 +149,6 @@ button:focus-visible:hover,
 .main__hero--comment p {
   font-size: clamp(10px, 1vw, 15px);
   font-weight: 700;
-}
-
-.menu h2 {
-  color: #ff7e22;
 }
 
 .footer {
